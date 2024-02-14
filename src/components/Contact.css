@@ -1,0 +1,26 @@
+.contact input {
+    height: 50px;
+    width: 50%;
+    border: 1px solid #686868;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 25px;
+    padding-left: 15px;
+}
+
+.contact button {
+    margin-left: 50px;
+    width: 150px;
+    height: 65px;
+    background: #553f9a;
+    color: white;
+    font-size: 25px;
+    font-weight: 500;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: auto;
+}

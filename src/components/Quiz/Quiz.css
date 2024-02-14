@@ -1,0 +1,62 @@
+.Qbody {
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(#D8C7FF, #19006C);
+  }
+  
+  .Qcontainer {
+    text-align: left;
+    width: 90%; /* Adjust the width for better responsiveness */
+    max-width: 640px; /* Set a maximum width to maintain readability on larger screens */
+    margin: auto;
+    background: white;
+    color: #262626;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    padding: 40px 20px; /* Adjust padding for better spacing on smaller screens */
+  }
+  
+  .Qcontainer hr {
+    height: 2px;
+    border: none;
+    background: #707070;
+    margin: 20px 0; /* Add margin for better separation */
+  }
+  
+  .Qcontainer h2 {
+    font-size: 24px; /* Adjust font size for better readability */
+    font-weight: 500;
+  }
+  
+  .Qcontainer ul li {
+    display: flex;
+    align-items: center;
+    height: 50px;
+    padding-left: 15px;
+    border: 1px solid #686868;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .Qcontainer ul li.selected {
+    background: #3f9a44;
+    color: white;
+  }
+  
+  .Qcontainer button {
+    margin: auto;
+    width: 100%; /* Make the button full-width on smaller screens */
+    max-width: 250px; /* Set a maximum width for better readability on larger screens */
+    height: 65px;
+    background: #553f9a;
+    color: white;
+    font-size: 20px; /* Adjust font size for better readability */
+    font-weight: 500;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
